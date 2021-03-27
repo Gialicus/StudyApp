@@ -1,0 +1,57 @@
+.daystyle {
+    text-align: center;
+    color: yellowgreen;
+    margin: 3px;
+    height: 100px;
+    border: 1px solid lightseagreen;
+}
+
+.select {
+    color: yellowgreen;
+    text-align: center;
+    margin: 3px;
+    height: 100px;
+    border: 1px solid lightgreen;
+    background-color: darken($color: #4d8eb4, $amount: 40);
+}
+
+.today {
+    text-align: center;
+    color: yellowgreen;
+    margin: 3px;
+    height: 100px;
+    border: 1px solid lightblue;
+    background-color: darken($color: rgba(0, 0, 0, 0.3), $amount: 10);
+}
+
+.notcurrent {
+    text-align: center;
+    color: yellowgreen;
+    margin: 3px;
+    height: 100px;
+    border: 1px solid lightcoral;
+    opacity: 0.2;
+}
+
+.weekend {
+    text-align: center;
+    color: yellowgreen;
+    margin: 3px;
+    height: 100px;
+    border: 1px solid lightcoral;
+    opacity: 0.6;
+}
+
+.selectedmonth {
+    color: yellowgreen;
+    text-align: center;
+}
+
+.header {
+    background-color: darken($color: lightseagreen, $amount: 20);
+}
+
+.dayhead {
+    color: yellowgreen;
+    background-color: darken($color: lightseagreen, $amount: 20);
+}
